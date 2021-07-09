@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+
+
+    main {
+      width: 100%;
+      display:flex;
+      flex-wrap: wrap;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+
+    .{{classname}} {
+      width: 17.3vw;
+      height: 15vw;
+      background-color: {{color}};
+      margin: 0vw 0vw 2vw 2vw;
+      
+      
+    }
+    
+    
+    </style>
+
+
+  </head>
+  <body>
+    <h1>welcome</h1>
+    <main>{% for x in range(0,times): %}
+      <div class="{{classname}}">
+      </div>
+      {% endfor %}
+    </main>
+    
+
+  </body>
+</html>
